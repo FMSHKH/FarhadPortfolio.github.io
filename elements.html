@@ -3,16 +3,33 @@
 <head>
   <title>Dashboard Preview</title>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 <body class="is-preload">
 
+  <!-- Page Wrapper -->
   <div id="page-wrapper">
 
-    <!-- Header -->
-    <header id="header">
-      <h1><a href="index.html">Farhad The Analyst</a></h1>
+    <!-- Header (Copied from index.html) -->
+    <header id="header" class="alt">
+      <h1><a href="index.html">Farhad</a></h1>
+      <nav id="nav">
+        <ul>
+          <li class="special">
+            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+            <div id="menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.linkedin.com/in/farhad-mohammadi-0797a65b/">LinkedIn</a></li>
+                <li><a href="https://public.tableau.com/app/discover">Tableau</a></li>
+                <li><a href="https://github.com/FMSHKH">GitHub</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main -->
@@ -21,16 +38,16 @@
         <h2>Coffee Sales Dashboard (Excel)</h2>
         <p>This is a preview of the Excel dashboard created to analyze coffee sales performance.</p>
         <span class="image fit">
-          <img src="images/CoffeeOrdersDashboardbyExcel.PNG" alt="Coffee Dashboard Image" />
+          <img src="images/coffee-dashboard.png" alt="Coffee Dashboard Image" />
         </span>
-        <p><a href="https://github.com/FMSHKH/CoffeeOrdersProject/raw/refs/heads/main/coffeeOrdersProject.xlsx" class="button" target="_blank">Download the Excel File</a></p>
+        <p><a href="https://raw.githubusercontent.com/FMSHKH/CoffeeDashboardExcel/main/coffee-dashboard.xlsx" target="_blank">Download the Excel File</a></p>
       </div>
     </section>
 
     <!-- Footer -->
     <footer id="footer">
       <ul class="icons">
-		<li><a href="https://www.linkedin.com/in/farhad-mohammadi-0797a65b/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+        <li><a href="https://www.linkedin.com/in/farhad-mohammadi-0797a65b/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
         <li><a href="https://github.com/FMSHKH" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
       </ul>
       <ul class="copyright">
@@ -43,6 +60,7 @@
   <!-- Scripts -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
   <script src="assets/js/browser.min.js"></script>
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
